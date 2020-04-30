@@ -12,6 +12,19 @@ function getName (){
     if (day<=0||day>31)
     alert('Please enter a valid day');
     else 
-    
+    if (month<0||month>12 ||month ==2 && day>29)
+    alert('Please enter a valid month');
+
+    var day = new Date(year + '/' + month + '/' + day);
+    var birthDay = day.getDay();
+    if (male.checked==true){
+    alert("You were born on " +daysOfWeek[birthDay]+ " and your akan name is " + akanMaleNames[birthDay])
+    }
+
+    else 
+    if (female.checked==true){
+        alert("You were born on " +daysOfWeek[birthDay]+ " and your akan name is " + akanFemaleNames[birthDay])
+     }
+     }
 
 
