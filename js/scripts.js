@@ -3,4 +3,7 @@ var akanMaleNames =['Kwasi','Kwadwo','Kwabena','Kwaku','Yaw','Kofi','Kwame',];
 var akanFemaleNames=['Akosua','Adwoa','Abenaa','Akua','Yaa','Afua','Ama',];
 
 function getName (){
-    var day = parseInt(document.getElementByIde("day").value);
+    var day = parseInt(document.getElementById('day').value);
+    var month = parseInt(document.getElementById('month').value);
+    
+
