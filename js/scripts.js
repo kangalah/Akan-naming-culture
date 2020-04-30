@@ -7,4 +7,11 @@ function getName (){
     var month = parseInt(document.getElementById('month').value);
     var year = parseInt(document.getElementById('year').value);
     var male = document.getElementById('male').value);
+    var female = document.getElementById('female').value);
+
+    if (day<=0||day>31)
+    alert('Please enter a valid day');
+    else 
+    
+
 
