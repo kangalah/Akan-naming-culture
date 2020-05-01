@@ -2,7 +2,7 @@ var daysOfWeek = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','S
 var akanMaleNames =['Kwasi','Kwadwo','Kwabena','Kwaku','Yaw','Kofi','Kwame',];
 var akanFemaleNames=['Akosua','Adwoa','Abenaa','Akua','Yaa','Afua','Ama',];
 
-function getName (){
+document.forms['details_form'].onsubmit = function getName (){
     var day = parseInt(document.getElementById('day').value);
     var month = parseInt(document.getElementById('month').value);
     var year = parseInt(document.getElementById('year').value);
@@ -26,21 +26,5 @@ function getName (){
         alert("You were born on " +daysOfWeek[birthDay]+ " and your akan name is " + akanFemaleNames[birthDay])
      }
      }
-     var formValues = {};
-     function inputObj(formNR, defaultValues) { 
-     var inputs = formNR.getElementsByTagName('input');
-     for ( var i = 0; i < inputs.length; i++) {
-     if(inputs[i].type === 'text' || inputs[i].type === 'password') {
-     formValues[inputs[i].name] = defaultValues[i]; 
-     }
-     inputs[i].value = defaultValues[i]; 
-     inputs[i].addEventListener('keyup', function() { 
-      formValues[this.name] = this.value;
-    }, false);
-  }
-}
-   var defValues =['defaultdateOfBirth','defaulmonthBirth','defaultyearOfBirth',];
-   inputObj(document.forms[0], defValues); 
-   console.log(formValues.firstname); 
 
 
