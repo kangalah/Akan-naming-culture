@@ -23,5 +23,6 @@ HTML,CSS and javascript.
 Visual studio code,one can also use;Atom, Sublime text and any other text editor.
 Linux Command line.
 *Contact information*
+Incase of any clarifications needed you can contact the author  **nyongesajoannanjala@gmail.com**
 
 
