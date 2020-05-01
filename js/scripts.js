@@ -26,5 +26,21 @@ function getName (){
         alert("You were born on " +daysOfWeek[birthDay]+ " and your akan name is " + akanFemaleNames[birthDay])
      }
      }
+     var formValues = {};
+     function inputObj(formNR, defaultValues) { 
+     var inputs = formNR.getElementsByTagName('input');
+     for ( var i = 0; i < inputs.length; i++) {
+     if(inputs[i].type === 'text' || inputs[i].type === 'password') {
+     formValues[inputs[i].name] = defaultValues[i]; 
+     }
+     inputs[i].value = defaultValues[i]; 
+     inputs[i].addEventListener('keyup', function() { 
+      formValues[this.name] = this.value;
+    }, false);
+  }
+}
+   var defValues =['defaultdateOfBirth','defaulmonthBirth','defaultyearOfBirth',];
+   inputObj(document.forms[0], defValues); 
+   console.log(formValues.firstname); 
 
 
