@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="js/scripts,js"></script>
+    <script src="script.js"></script>
     <title>The Akan culture</title>
 </head>
 <body>
@@ -19,28 +19,31 @@
             <h2>Please fill in the details below:</h2>
             <h2>
              <br>
-              <div class="one">
-              <form name="details-form" action="">
-               <label for="birthdate">Date of Birth:</label><br>
-                <input type="text" id="birthdate" name="birthdate" required>
+              <div class="output">
+                  <div class="form-group">
+              <form onsubmit="event.preventDefault()">
+               <label for="day">Day:</label><br>
+                <input type="text" id="day" name="birthdate" required>
                 <br>
+                <div class="form-group">
                 <label for="month">BirthMonth:</label><br>
-                <input type="text" id="birthmonth" name="month" required>
+                <input type="text" id="month" name="monthbirth" required>
                 <br>
-                <label for="month">Year of birth:</label><br>
-                <input type="text" id="Year of birth" name="month" required>
+                <div class="form-group">
+                <label for="year">Year of birth:</label><br>
+                <input type="text" id="Year" name="year of birth" required>
                 <br>
                 <input type="radio" id="male" name="gender" value="male">
                 <label for="male">Male</label><br>
                 <input type="radio" id="female" name="gender" value="female">
                 <label for="female">Female</label><br>
                 <br>
-                <input type="submit" value="Submit" >
-               </div>
+                <button type="submit" onclick="getName()" onsubmit="event.preventDefault()" class="btn btn-outline-primary">submit</button>
+              </div>
             </div>
-            </div>
-        
         </div>
-    </div>
+     </div>
+    
+    <script src="script.js"></script>
     </body>
 </html>
