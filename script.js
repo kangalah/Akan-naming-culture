@@ -18,11 +18,10 @@ var akanFemaleNames=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama",];
     var day = new Date(day + "/" + month + "/" + year);
     var birthDay = day.getDay();
     if (male.checked==true){
-    alert("You were born on " +daysOfWeek[birthDay]+ " and your akan name is " + akanMaleNames[birthDay])
+    alert("You were born on " +daysOfWeek[birthDay]+ " and your akan name is " + akanMaleNames[birthDay]);
     
-
     else 
     if (female.checked==true){
-        alert("You were born on " +daysOfWeek[birthDay]+ " and your akan name is " + akanFemaleNames[birthDay])
+        alert("You were born on " +daysOfWeek[birthDay]+ " and your akan name is " + akanFemaleNames[birthDay]);
     }
      }
