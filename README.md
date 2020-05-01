@@ -24,5 +24,9 @@ Visual studio code,one can also use;Atom, Sublime text and any other text editor
 Linux Command line.
 *Contact information*
 Incase of any clarifications needed you can contact the author  **nyongesajoannanjala@gmail.com**
+*License and copyright information*
+**MIT**
+copyright (c) 2020 *Joan Nanjala*
+Permission is hereby granted free of charge to any person obtaining a copy of this software and its associated documentation.
 
 
