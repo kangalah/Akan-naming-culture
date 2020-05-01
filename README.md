@@ -18,3 +18,10 @@ Add the changes to reflect the changes that you made.
 Commit the changes that you made.
 Push to the branch.
 Create a pull request.
+*Technologies used*
+HTML,CSS and javascript.
+Visual studio code,one can also use;Atom, Sublime text and any other text editor.
+Linux Command line.
+*Contact information*
+
+
