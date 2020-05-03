@@ -23,5 +23,10 @@ label{
 .form-group{
     text-align: center;
 }
+.form{
+    background-image: url("https://buzzghana.com/wp-content/uploads/2013/10/Akan-people.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 
