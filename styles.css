@@ -1,32 +1,41 @@
 .container{
-    background-color: darkturquoise;
-    width: 100%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSoqN_2XC34wx1NQqZg7uSjZjRLL8MLgJapUbvhq9qrvhba5ktY&usqp=CAU");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 h1 {
     color: crimson;
 }
 h2{
-    color: crimson;
-    text-align: center;
+    color: black;
+    
 }
 
 label{
-    color:crimson;
+    color:white;
+    
 }
 .jumbotron{
-    text-align: center;
+    background-color: darkturquoise;
+    
 }
 .footer{
     color:crimson;
     text-align: center;
 }
-.form-group{
+
+
+input{
+       
+        display:inline-block;
+        width:100px;
+}
+.row{
     text-align: center;
 }
-.form{
-    background-image: url("https://buzzghana.com/wp-content/uploads/2013/10/Akan-people.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+h2{
+    color:black;
 }
 
 
