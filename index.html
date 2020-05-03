@@ -1,43 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <title>The Akan culture</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Akan Names</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body>
-    <div class="container">
-        <div class="jumbotron">
-           <h1>Ghanian Naming culture.</h1>
-            <p>This application enables you to know your Akan name and the day of the week in which you were born according to the Ghanaian naming culture by you entering you date of birth,your monthbirth and your year of birth.
-            You are also required to verify whether you are a male or female since the Akan culture distinctively differentiates male names from female names.</p>
+<body >
+  <div class="container">
+    <div class="jumbotron">
+       <h1>Ghanian Naming culture.</h1>
+        <p>This application enables you to know your Akan name and the day of the week in which you were born according to the Akan naming culture by you entering you date of birth,your monthbirth and your year of birth.
+         You are also required to verify whether you are a male or female since the Akan culture distinctively differentiates male names from female names.</p>
+      </div>
+        <h2>Please fill in the details below:</h2>
+        <form name="myForm" class="form" onsubmit="validate();">
+          <div class="form-group">
+            <label for="number">Year of Birth:</label>
+            <input type="number" class="form-control" id="year" placeholder="Year of Birth Eg: 2019 if born in 2019" name="year">
           </div>
-            <h2>Please fill in the details below:</h2>
-            <h2>
-             <br>
-              <div class="output">
-              <form class="form-group">
-               <label for="day">Day:</label><br>
-                <input type="text" id="day" name="birthday" required>
-                <br>
-                 <label for="month">BirthMonth:</label><br> 
-                 <input type="text" id="month" name="monthbirth" required>
-                 <br> 
-                <label for="year">Year of birth:</label><br>
-                <input type="text" id="Year" name="year of birth" max="2020" min="1980" required>
-                <br>
-                <input type="radio" id="male" name="gender" value="male">
-                <label for="male">Male</label><br>
-                <input type="radio" id="female" name="gender" value="female">
-                <label for="female">Female</label><br>  
-                
-              </form>
-              
-              </div> 
-              <button type="button" onclick="getName()" class="btn btn-outline-primary">submit</button>
+          <div class="form-group">
+            <label for="month">Month of Birth:</label>
+            <input type="number" class="form-control" id="month" placeholder="Month of Birth" name="month">
+          </div>
+          <div class="form-group">
+            <label for="date">Date of Birth:</label>
+            <input type="number" class="form-control" id="date" placeholder="Date of Birth eg 05 for May" name="date">
+          </div>
+          <div class="form-group">
+            <label for="month">Gender</label><br>
+            <div class="form-check-inline">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
+              </label>
             </div>
-    <script src="script.js"></script>
-    </body>
+            <div class="form-check-inline">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female 
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary" onclick="findName();">Get Name</button>
+          <br>
+        </form>
+        <p id="results"> </p>
+      </div>
+  </div>
+  
+<script src="script.js"></script>
+</body>
 </html>
