@@ -9,19 +9,18 @@ h2{
     color: crimson;
     text-align: center;
 }
-.form-group {
-    background-image: url("https://buzzghana.com/wp-content/uploads/2013/10/Akan-people.jpg");
-    background-size: cover;
-    text-align: center;
-}
+
 label{
-    color:red;
+    color:crimson;
 }
 .jumbotron{
     text-align: center;
 }
 .footer{
     color:crimson;
+    text-align: center;
+}
+.form-group{
     text-align: center;
 }
 
