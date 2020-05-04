@@ -1,4 +1,5 @@
-TITLE
+TITLE.
+
 Ghanian-naming-culture.
 
 Author information
@@ -9,12 +10,14 @@ Description
 This project entirely invloves the the creation of a web application for users to know their akan names and the day in which they were born through them inputting the monthbirth and year of birth.
 
 Setup instructions
+
 Clone the repository on your local machine.
 cd into the Directory.
 Open index.html with the browser.
 Make any changes if need be.
 
 The BDD
+
 To enhance an existing module, follow these steps;
 fork the repository
 create a new branch
@@ -24,7 +27,8 @@ Commit the changes that you made.
 Push to the branch.
 Create a pull request.
 
-Technologies used
+Technologies used.
+
 HTML,CSS and javascript.
 Visual studio code,one can also use;Atom, Sublime text and any other text editor.
 Linux Command line.
@@ -33,6 +37,7 @@ Contact information
 Incase of any clarifications needed you can contact the author  **nyongesajoannanjala@gmail.com**
 
 License and copyright information
+
 **MIT**
 Copyright (c) [2020] [JoanNanjala.]
 
