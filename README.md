@@ -22,6 +22,7 @@ Add the changes to reflect the changes that you made.
 Commit the changes that you made.
 Push to the branch.
 Create a pull request.
+This is my livelink you can check it out **https://kangalah.github.io/Ghanaian-naming-culture/**
 
 <h2>Technologies used.</h2>
 HTML,CSS and javascript.
